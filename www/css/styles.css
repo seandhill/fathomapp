@@ -283,58 +283,6 @@ a{
 		margin-right:1.3%;
 	}
 	
-	#header{
-		width:100%;
-		height:1024px;
-		background: url(../images/background_stairs.jpg) fixed no-repeat ;
-		background-size: 100%;
-		background-position: top center;
-		padding:1px 0 0 0;
-	}
-	#logo{
-		width:31.5%;
-		padding-top:31.5%;
-		margin-top:200px;
-		margin-left:34.25%;
-		margin-right:34.25%;
-		background-image:url(../images/fathom_logo2.png);
-		background-repeat:no-repeat;
-		background-size:100%;
-	}
-	#header h1{
-		color:#fff;
-		text-align:center;
-		margin-top:100px;
-	}
-	
-	
-	#block1{
-		width:100%;
-		height:1024px;
-		background-image: url(../images/gridme.jpg);
-		float:left;
-	}
-	#block1 h2{
-		width:65.8%;
-		margin-left:17.1%;
-		margin-right:17.1%;
-		color:#fff;
-		margin-top:20px;
-		padding-bottom:10px;
-		border-bottom:2px solid #fff;
-		text-align:center;
-	}
-	#block1 p{
-		width:65.8%;
-		margin-left:17.1%;
-		margin-right:17.1%;
-		color:#fff;
-		font-size:24px;
-		line-height:36px;
-		margin-top:15px;
-		text-align:justify;
-	}
-	
 	#imageSlider{
 		position:relative;
 		width:100%;
@@ -356,7 +304,97 @@ a{
 		float:left;
 	}
 	
+	/*HOME ---------------------------------------------------------- */
+	#zero{
+		width:100%;
+		height:1024px;
+		background: url(../images/background_stairs.jpg) no-repeat;
+		background-size: 100%;
+		background-position: top center;
+		padding:1px 0 0 0;
+	}
+	#logo{
+		width:31.5%;
+		padding-top:31.5%;
+		margin-top:200px;
+		margin-left:34.25%;
+		margin-right:34.25%;
+		background-image:url(../images/fathom_logo2.png);
+		background-repeat:no-repeat;
+		background-size:100%;
+	}
+	
+	#nav{
+		width:93.75%;
+		margin-top:75px;
+		margin-left:3.125%;
+		margin-right:3.125%;
+		text-align:center;
+	}
+	#nav h1{
+		color:#FFF;
+		font-size:36px;
+		line-height:40px;
+		text-align:center;
+	}
+	#nav li{
+		display:inline-block;
+		padding:0 15px;
+		border-right:6px solid #fff;
+	}
+	#nav li:last-child{
+		border-right:none;
+	}
+	#nav li a:link, a:visited, a:hover, a:active{
+		color:#FFF;
+		text-decoration:none;
+	}
+	
+	#box1{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:342px;
+		bottom:100px;
+		background-image:url(../images/fathom_box.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	
+	
+	/*MISSION ---------------------------------------------------------- */
 	#first{
+		width:100%;
+		height:1024px;
+		background-image: url(../images/gridme.jpg);
+		float:left;
+		padding-top:1px;
+	}
+	#first h2{
+		width:65.8%;
+		margin-left:17.1%;
+		margin-right:17.1%;
+		color:#fff;
+		margin-top:20px;
+		padding-bottom:10px;
+		border-bottom:2px solid #fff;
+		text-align:center;
+	}
+	#first p{
+		width:65.8%;
+		margin-left:17.1%;
+		margin-right:17.1%;
+		color:#fff;
+		font-size:24px;
+		line-height:36px;
+		margin-top:15px;
+		text-align:justify;
+	}
+	
+	
+	/*Pillars ---------------------------------------------------------- */
+	#second{
 		width:768px;
 		height:1024px;
 		background-image:url(../images/background_night.jpg);
@@ -368,7 +406,7 @@ a{
 		width:65.8%;
 		margin-left:17.1%;
 		margin-right:17.1%;
-		margin-top:50px;
+		margin-top:200px;
 		background-color:rgba(0, 0, 0, .6);
 		border:4px solid #fff;
 	}	
@@ -387,34 +425,22 @@ a{
 		text-align:justify;
 		text-shadow:1px 1px 4px rgba(0, 0, 0, .6);
 	}
-	#box1{
-		width:128px;
-		height:128px;
-		margin:200px auto 0;
+	#box2{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:1878px;
+		bottom:100px;
 		background-image:url(../images/fathom_box.png);
 		background-size:100%;
 		background-repeat:no-repeat;
 		background-position:center;
 	}
 	
-	#second{
-		width:768px;
-		height:1024px;
-		background-image:url(../images/background_architecture.jpg);
-		background-repeat:no-repeat;
-		background-size:100%;
-		padding:1px 0 0 0;
-	}
-	#second h2{
-		color:#fff;
-		text-align:center;
-		text-shadow:1px 1px 4px rgba(0, 0, 0, .6);
-	}
-	
 	#third{
 		width:768px;
 		height:1024px;
-		background-image:url(../images/background_man.jpg);
+		background-image:url(../images/background_architecture.jpg);
 		background-repeat:no-repeat;
 		background-size:100%;
 		padding:1px 0 0 0;
@@ -425,11 +451,75 @@ a{
 		text-shadow:1px 1px 4px rgba(0, 0, 0, .6);
 	}
 	
-	#footer{
+	#box3{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:2646px;
+		bottom:100px;
+		background-image:url(../images/fathom_box.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	
+	#fourth{
+		width:768px;
+		height:1024px;
+		background-image:url(../images/background_man.jpg);
+		background-repeat:no-repeat;
+		background-size:100%;
+		padding:1px 0 0 0;
+	}
+	#fourth h2{
+		color:#fff;
+		text-align:center;
+		text-shadow:1px 1px 4px rgba(0, 0, 0, .6);
+	}
+	
+	#box4{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:3414px;
+		bottom:100px;
+		background-image:url(../images/fathom_box.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center;
+	}
+	
+	#fifth{
 		width:100%;
 		height:1020px;
-		background-color:#000;
+		background-image:url(../images/dark_wall.png);
 		border-top:4px solid #00b7c6;
+	}
+	#fifth h3{
+		color:#00b7c6;
+		font-size:18px;
+		margin: 30px 170px 10px;
+	}
+	#fifth p{
+		color:#fff;
+		font-size:16px;
+		line-height:24px;
+		margin:0 170px;
+	}
+	#form{
+		width:428px;
+		margin:0 170px;
+	}
+	#box5{
+		width:84px;
+		height:84px;
+		position:absolute;
+		left:4182px;
+		bottom:100px;
+		background-image:url(../images/fathom_box.png);
+		background-size:100%;
+		background-repeat:no-repeat;
+		background-position:center;
 	}
 	
 }

@@ -1,0 +1,147 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+@font-face {
+    font-family: 'SourceSansProBold';
+    src: url(../fonts/SourceSansPro-Bold-webfont.eot);
+    src: url(../fonts/SourceSansPro-Bold-webfont.eot) format('embedded-opentype'),
+         url(../fonts/SourceSansPro-Bold-webfont.woff) format('woff'),
+         url(../fonts/SourceSansPro-Bold-webfont.ttf) format('truetype'),
+         url(../fonts/SourceSansPro-Bold-webfont.svg) format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/*
+Contact Form by html-form-guide.com
+You can customize all the aspects of the form in this style sheet
+All the style elements use form id selector(notice the #contactus). So, including this
+stylesheet does not affect the other elements at all!
+*/
+.container{
+}
+#contactus label{
+   font-size:18px;
+   letter-spacing:1px;
+   text-transform:uppercase;
+   color:#f05853;
+}
+#contactus input[type="text"]{
+  width:418px;
+  height:30px;
+}
+#contactus textarea{
+  width:418px;
+  height:120px;
+  resize:none;
+}
+#contactus input[type="text"],textarea{
+  font-family : Arial, sans-serif;
+  font-size: 13px;
+  line-height:20px;
+  color: #fff;
+  margin-bottom:15px;
+  padding:4px;
+  background-color:#666;
+  border:1px solid #999;
+}
+#contactus input[type="text"]:focus,textarea:focus
+{
+  outline:none;
+  border: 1px solid #00b7c6;
+  transition: .25s;
+	-webkit-transition: .25s;
+}
+#contactus input[type="submit"]{
+   width:428px;
+   height:54px;
+   font-family: 'SourceSansProBold';
+   font-size:18px;
+   line-height:54px;
+   color:#fff;
+   letter-spacing:1px;
+   text-transform:uppercase;
+   border:none;
+   background-color:#00b7c6;
+   -webkit-appearance:none;
+}
+#contactus input[type="submit"]:hover{
+   cursor:pointer;
+   background-color:#00b7c6;
+   -webkit-appearance:none;
+}
+#thankyou{
+	width:306px;
+	height:388px;
+	float:left;
+	background-color:#00b7c6;
+}
+
+#block{
+	width:222px;
+	height:222px;
+	background-image:url(images/thankyou.png);
+	margin-left:42px;
+	margin-top:10px;
+}
+#thankyou h1{
+	font-family: 'SourceSansProBold';
+	font-size:18px;
+	line-height:27px;
+	text-align:center;
+	width:276px;
+	margin-top:20px;
+	margin-left:15px;
+	color:#f0f0f0;
+}
+
+#contactus .error
+{
+   font-family: Verdana, Arial, sans-serif; 
+   font-size: 9px;
+   color: #f05853;
+}
+#contactus fieldset#antispam
+{
+   padding:2px;
+   border-top:1px solid #EEE;
+   border-left:0;
+   border-right:0;
+   border-bottom:0;
+   width:304px;
+}
+#contactus fieldset#antispam legend
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.8em;
+   font-weight:bold;
+   color:#333;   
+}
+#contactus #scaptcha
+{
+  width:60px;
+  height:18px;
+}
+
+/* spam_trap: This input is hidden. This is here to trick the spam bots*/
+#contactus .spmhidip
+{
+   display:none;
+   width:10px;
+   height:3px;
+}
+#fg_crdiv
+{
+   font-family : Arial, sans-serif;
+   font-size: 0.3em;
+   opacity: .2;
+   -moz-opacity: .2;
+   filter: alpha(opacity=20);   
+}
+#fg_crdiv p
+{
+    display:none;
+}
