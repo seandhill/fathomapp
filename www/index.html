@@ -109,7 +109,16 @@
                 <li id="fifth" class="sliderBlock">
                 	<div class="container">
                         <h3>Get in contact directly:</h3>
-                        <iframe id="form" src="form/contactform.php" frameborder="0" scrolling="no" width="100%" height="380px"></iframe>
+                        <!--<iframe id="form" src="form/contactform.php" frameborder="0" scrolling="no" width="100%" height="380px"></iframe>-->
+                        
+                            <form id="form" method="POST" action="#">
+                                  <input type='text' name='name' id='name' value='Name...' onfocus="this.value='';" onblur="if(this.value=='') this.value='Name...';" maxlength="50" /><br>
+                                  <input type='text' name='email' id='email' value='Email...' onfocus="this.value='';" onblur="if(this.value=='') this.value='Email...';" maxlength="50" /><br>
+                                  <input type='text' name='subject' id='subject' value='Subject...' onfocus="this.value='';" onblur="if(this.value=='') this.value='Subject...';" maxlength="50" /><br>
+                                  <textarea rows="10" cols="50" name='message' id='message' placeholder="Message..." onfocus="this.value=''"></textarea><br>
+                                  <input type="submit" name="submit" value="Submit" id="submit" />
+                            </form>
+                            
                         <h3>Projects</h3>
                         <p>Fathom believes that providing developers with the right tools and programs, provides the best accesability. Our developers create the best projects for 3D sensing technology. Want to learn more? Check out our 'Experience' section of our site, or get in contact with us.</p>
                         <h3>Community</h3>

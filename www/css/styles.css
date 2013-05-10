@@ -308,7 +308,7 @@ a{
 	#zero{
 		width:100%;
 		height:1024px;
-		background: url(../images/background_stairs.jpg) no-repeat;
+		background: url(../images/background_stairs1.jpg) no-repeat;
 		background-size: 100%;
 		background-position: top center;
 		padding:1px 0 0 0;
@@ -397,7 +397,7 @@ a{
 	#second{
 		width:768px;
 		height:1024px;
-		background-image:url(../images/background_night.jpg);
+		background-image:url(../images/background_night1.jpg);
 		background-repeat:no-repeat;
 		background-size:100%;
 		padding:1px 0 0 0;
@@ -440,7 +440,7 @@ a{
 	#third{
 		width:768px;
 		height:1024px;
-		background-image:url(../images/background_architecture.jpg);
+		background-image:url(../images/background_architecture1.jpg);
 		background-repeat:no-repeat;
 		background-size:100%;
 		padding:1px 0 0 0;
@@ -466,7 +466,7 @@ a{
 	#fourth{
 		width:768px;
 		height:1024px;
-		background-image:url(../images/background_man.jpg);
+		background-image:url(../images/background_man1.jpg);
 		background-repeat:no-repeat;
 		background-size:100%;
 		padding:1px 0 0 0;
@@ -506,10 +506,7 @@ a{
 		line-height:24px;
 		margin:0 170px;
 	}
-	#form{
-		width:428px;
-		margin:0 170px;
-	}
+	
 	#box5{
 		width:84px;
 		height:84px;
@@ -520,6 +517,57 @@ a{
 		background-size:100%;
 		background-repeat:no-repeat;
 		background-position:center;
+	}
+	
+	#form{
+		width:428px;
+		margin:0 170px;
+		font-family: 'SourceSansProRegular';
+		font-size:13px;
+		-webkit-appearance: none;
+	}
+	
+	#form > input{
+		width:100%;
+		padding:0 5px;
+		display:block;
+		border: 1px solid #999;
+		height: 25px;
+		-webkit-box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.3);
+	}
+	#form > textarea{
+		width:100%;
+		padding:5px;
+		display:block;
+		border: 1px solid #999;
+		height: 125px;
+		resize:none;
+		-webkit-box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.3);
+		-moz-box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.3);
+		box-shadow: inset 0px 0px 8px rgba(0, 0, 0, 0.3);
+	}
+	#form > #submit{
+		width:172px;
+		height:40px;
+		margin:0 128px;
+		background-color:#00b7c6;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border-radius:3px;
+		border:1px solid #333;
+		outline:none;
+		display:inline-block;
+		box-shadow:none;
+		color:#ffffff;
+		font-family: 'SourceSansProBold';
+		font-size:16px;
+		font-weight:normal;
+		line-height:40px;
+		text-align:center;
+		text-decoration:none;
+		text-transform:uppercase;
 	}
 	
 }

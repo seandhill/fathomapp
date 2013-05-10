@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
-        id        = "com.seandhill.fathom"
-        version   = "2.0.0">
+        id        = "com.seandhill.fathomapp"
+        version   = "3.0.0">
     <name>Fathom</name>
 
     <description>
@@ -19,6 +19,7 @@
     <preference name="orientation"      value="portrait" />
     <preference name="target-device"    value="tablet" />
     <preference name="fullscreen"       value="true" />
+	<preference name="prerendered-icon" value="true" />
 
     <icon src="icon.png" />
     
